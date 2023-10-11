@@ -1,0 +1,14 @@
+.ProductList {
+  padding: 0;
+  margin: 0;
+}
+
+.ProductList--separator {
+  height: 1px;
+  background: #ccc;
+  margin: 0 16px;
+}
+
+.ProductCard + .ProductCard {
+  margin-top: 16px;
+}

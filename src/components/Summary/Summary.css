@@ -1,0 +1,28 @@
+.Summary {
+  position: sticky;
+  top: var(--header-height);
+  padding: 12px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Summary--total-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.Summary--description {
+  opacity: 0.6;
+}
+
+.Summary--description,
+.Summary--checkout-btn {
+  margin-top: 16px;
+}
+
+.Summary--checkout-btn {
+  background: #2d81e0;
+  color: #fff;
+}

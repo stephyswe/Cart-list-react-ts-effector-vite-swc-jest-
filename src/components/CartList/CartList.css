@@ -1,0 +1,7 @@
+.CartList {
+  width: 911px;
+}
+
+.CartListItem + .CartListItem {
+  margin-top: 16px;
+}

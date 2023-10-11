@@ -1,0 +1,15 @@
+.DeliveryTypes {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  /* justify-content: space-between; */
+}
+
+.DeliveryTypes--item {
+  color: #252525;
+}
+
+.DeliveryTypes--separator {
+  padding: 0 8px;
+}
